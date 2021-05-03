@@ -16,7 +16,7 @@ a.className="doga";
 a.classList.add("pet");
 a.classList.remove("doga");
 u.removeChild(u.querySelector('li:nth-child(2)'))
-u.remove()*/
+u.remove()
 document.querySelector('main').remove();
 let newHeader=document.createElement("h1");
 newHeader.nodeName="H1";
@@ -24,4 +24,8 @@ newHeader.nodeName="H1";
 newHeader.id="victory";
 newHeader.innerHTML="MARWA is a champion";
 //newHeader.innerHTML="go"
-//document.body.appendChild(newHeader);
+//document.body.appendChild(newHeader);*/
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Flatiron School is the champion!";
+newHeader.className = "victory";
