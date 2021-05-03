@@ -27,5 +27,5 @@ newHeader.innerHTML="MARWA is a champion";
 //document.body.appendChild(newHeader);*/
 const newHeader = document.createElement("h1");
 newHeader.id = "victory"
-newHeader.innerHTML = "Flatiron School is the champion!";
-newHeader.className = "victory";
+newHeader.innerHTML = "MARWA School is the champion!";
+//newHeader.className = "victory";
