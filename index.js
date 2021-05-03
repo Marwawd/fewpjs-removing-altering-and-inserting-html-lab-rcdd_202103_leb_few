@@ -20,7 +20,8 @@ u.remove()*/
 document.querySelector('main').remove();
 let newHeader=document.createElement("h1");
 newHeader.nodeName="H1";
-newHeader.setAttribute("id", "victory");
+//newHeader.setAttribute("id", "victory");
+newHeader.id="victory";
 newHeader.innerHTML="MARWA is a champion";
 //newHeader.innerHTML="go"
 document.body.appendChild(newHeader);
