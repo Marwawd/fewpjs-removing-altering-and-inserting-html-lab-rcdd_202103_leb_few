@@ -18,14 +18,7 @@ a.classList.remove("doga");
 u.removeChild(u.querySelector('li:nth-child(2)'))
 u.remove()*/
 document.querySelector('main').remove();
-let newHeader=document.createElement("h1");
-newHeader.nodeName="H1";
-//newHeader.setAttribute("id", "victory");
-newHeader.id="victory";
-newHeader.innerHTML="MARWA is a champion";
-//newHeader.innerHTML="go"
-//document.body.appendChild(newHeader);
-/* const newHeader = document.createElement("h1");
+const newHeader = document.createElement("h1");
 newHeader.id = "victory"
 newHeader.innerHTML = "MARWA School is the champion!";*/
 //newHeader.className = "victory";
