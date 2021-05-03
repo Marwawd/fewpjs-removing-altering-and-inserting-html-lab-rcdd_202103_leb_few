@@ -24,4 +24,4 @@ newHeader.nodeName="H1";
 newHeader.id="victory";
 newHeader.innerHTML="MARWA is a champion";
 //newHeader.innerHTML="go"
-document.body.appendChild(newHeader);
+//document.body.appendChild(newHeader);
