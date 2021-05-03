@@ -24,4 +24,3 @@ newHeader.setAttribute("id", "victory");
 newHeader.innerHTML="MARWA is a champion";
 //newHeader.innerHTML="go"
 document.body.appendChild(newHeader);
-
