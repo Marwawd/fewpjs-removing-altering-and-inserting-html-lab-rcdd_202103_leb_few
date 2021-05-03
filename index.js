@@ -1,1 +1,27 @@
 // Write your code here!
+/*
+let a=document.createElement("p");
+document.body.appendChild(a);
+let u = document.createElement('ul')
+
+for (let i = 0; i < 3; i++) {
+  let li = document.createElement('li')
+  li.innerHTML = (i + 1).toString()
+  u.appendChild(li)
+}
+
+element.appendChild(u);
+a.className="dog";
+a.className="doga";
+a.classList.add("pet");
+a.classList.remove("doga");
+u.removeChild(u.querySelector('li:nth-child(2)'))
+u.remove()*/
+document.querySelector('main').remove();
+let newHeader=document.createElement("h1");
+newHeader.nodeName="H1";
+newHeader.setAttribute("id", "victory");
+newHeader.innerHTML="MARWA is a champion";
+//newHeader.innerHTML="go"
+document.body.appendChild(newHeader);
+
